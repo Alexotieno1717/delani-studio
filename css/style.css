@@ -93,3 +93,29 @@ Portfolio SECTION
     color: white;
     text-align: center;
 }
+
+/* ======================================
+Contact SECTION
+================================================== */
+#contact{
+    background: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#textInput{
+    background: transparent;
+    outline: none;
+    box-sizing: none;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
+}
+
+#textInput::placeholder{
+    color: white;
+}
