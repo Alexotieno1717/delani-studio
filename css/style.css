@@ -37,7 +37,6 @@ SERVICES SECTION
     background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -63,4 +62,34 @@ Who We Do SECTION
 
 #product-text{
     display: none;
+}
+
+/* ======================================
+Portfolio SECTION
+================================================== */
+.portfolio-img{
+    position: relative;
+}
+
+.portfolio-overlay{
+    width: 95%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.87);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+    transition: 1s ease;
+    opacity: 0;
+}
+
+.portfolio-img:hover .portfolio-overlay {
+    height: 100%;
+    opacity: 1;
+}
+
+.portfolio-subtitle{
+    padding-top: 35%;
+    color: white;
+    text-align: center;
 }
