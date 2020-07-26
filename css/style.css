@@ -7,6 +7,10 @@ html, body{
     margin: 0;
 }
 
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /* ======================================
 HOME BANNER
 ================================================== */
