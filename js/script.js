@@ -28,4 +28,9 @@ $(document).ready(function(){
         $('#product').slideToggle();
         $('#product-text').slideToggle();
     });
+
+    //Submit button - should alert a message
+    $('#submit').submit(function(){
+        alert('Your message was well receive thank you for contacting us');
+    });
 });
