@@ -73,6 +73,7 @@ Portfolio SECTION
 ================================================== */
 .portfolio-img{
     position: relative;
+    width: 100%;
 }
 
 .portfolio-overlay{
