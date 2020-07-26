@@ -35,6 +35,6 @@ $(document).ready(function(){
         let emailInput = $('input#email').val();
         let messageInput = $('textarea#message').val();
 
-        alert(" Dear " + emailInput + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
+        alert(" Dear " + nameInput + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
     });
 });

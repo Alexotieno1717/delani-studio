@@ -162,14 +162,18 @@
             <div class="row">
                 <div class="col-md-12">
                     <form class="form" id="myform">
-                        <div class="input-one">
-                            <input class="inputForm" id="name" type="text" name="name"  placeholder="Name" required>
-                            <input class="ml-5 text-white inputForm" id="email" type="email" name="name" placeholder="Email" required>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control inputForm" id="name" type="text" name="name"  placeholder="Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control text-white inputForm" id="email" type="email" name="name" placeholder="Email" required>
+                            </div>
                         </div>
-                        <div class="message pt-5">
-                            <textarea class="inputForm" id="textarea" name="name" rows="8" cols="62" placeholder="Your message here..." required></textarea>
+                        <div class="message pt-2">
+                            <textarea class="form-control inputForm" id="textarea" name="name" rows="8" cols="62" placeholder="Your message here..." required></textarea>
                         </div>
-                        <input class="btn btn-secondary" id="submit" type="submit" name="submit" placeholder="Submit">
+                        <input class="btn btn-secondary mt-3" id="submit" type="submit" name="submit" placeholder="Submit">
                     </form>
                 </div>
             </div>
