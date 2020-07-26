@@ -30,7 +30,11 @@ $(document).ready(function(){
     });
 
     //Submit button - should alert a message
-    $('#submit').submit(function(){
-        alert('Your message was well receive thank you for contacting us');
+    $('#myform').submit(function(event){
+        let nameInput = $('input#name').val();
+        let emailInput = $('input#email').val();
+        let messageInput = $('textarea#message').val();
+
+        alert(" Dear " + emailInput + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
     });
 });

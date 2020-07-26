@@ -107,16 +107,28 @@ Contact SECTION
     margin-top: 20px;
 }
 
-#textInput{
+#contact-form{
+    width: 60%;
+}
+
+.inputForm{
     background: transparent;
     outline: none;
     box-sizing: none;
     box-shadow: none;
     border: 1px solid white;
     color: white;
+
+}
+.inputForm:focus{
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
 }
 
-#textInput::placeholder{
+.inputForm::placeholder{
     color: white;
 }
 
