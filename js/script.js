@@ -38,3 +38,4 @@ $(document).ready(function(){
         alert(" Dear " + nameInput + ',' + " Your message has been recieved" + ',' + " thank you for getting in touch.");
     });
 });
+

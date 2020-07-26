@@ -92,6 +92,8 @@ Portfolio SECTION
     padding-top: 35%;
     color: white;
     text-align: center;
+    border: 1px solid white;
+    padding-bottom: 30%;
 }
 
 /* ======================================
