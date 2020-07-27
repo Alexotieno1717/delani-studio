@@ -10,6 +10,7 @@
 <img src="assets/Screenshot.png">
 
 ### Live Demo
+* https://alexotieno1717.github.io/delani-studio/
 
 ### Installation / Setup instruction
 * Open your terminal
