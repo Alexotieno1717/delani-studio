@@ -30,7 +30,7 @@ $(document).ready(function(){
     });
 
     //Submit button - should alert a message
-    $('#myform').submit(function(event){
+    $('#mc-embedded-subscribe-form').submit(function(event){
         let nameInput = $('input#name').val();
         let emailInput = $('input#email').val();
         let messageInput = $('textarea#message').val();
