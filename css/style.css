@@ -11,6 +11,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/* ======================================
+ANIMATION ON MOUSE
+================================================== */
 #mouse-click{
     animation: bounce 2s infinite;
 }
